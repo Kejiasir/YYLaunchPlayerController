@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vgb-QM-SR9"/>
+                        <viewControllerLayoutGuide type="bottom" id="I78-ah-lga"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bizhi.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MWZ-rQ-Qbc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="I78-ah-lga" firstAttribute="top" secondItem="MWZ-rQ-Qbc" secondAttribute="bottom" id="Ug6-5A-MCJ"/>
+                            <constraint firstItem="MWZ-rQ-Qbc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Ukb-Cu-5sv"/>
+                            <constraint firstAttribute="trailing" secondItem="MWZ-rQ-Qbc" secondAttribute="trailing" id="UqD-Ag-OCw"/>
+                            <constraint firstItem="MWZ-rQ-Qbc" firstAttribute="top" secondItem="vgb-QM-SR9" secondAttribute="bottom" constant="-20" id="spl-e7-TKM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-154.40000000000001" y="349.47526236881561"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bizhi.jpg" width="600" height="1066"/>
+    </resources>
+</document>
